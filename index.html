@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <!--<< Header Area >>-->
+    <head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="pixydrops">
+        <meta name="description" content="Remons - Booking Rental HTML Template">
+        <!-- ======== Page title ============ -->
+        <title>Remons - Booking Rental HTML Template</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap" rel="stylesheet">
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< DatePicker.css >>-->
+        <link rel="stylesheet" href="assets/css/datepickerboot.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <style>
+            .logo{
+                max-width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Preloader Start -->
+        <div id="preloader" class="preloader">
+            <div class="animation-preloader">
+                <div class="spinner">                
+                </div>
+                <div class="txt-loading">
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                    <span data-text-preloader="L" class="letters-loading">
+                        L
+                    </span>
+                    <span data-text-preloader="M" class="letters-loading">
+                        M
+                    </span>
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                    <span data-text-preloader="N" class="letters-loading">
+                        N
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        S
+                    </span>
+                    <span data-text-preloader="O" class="letters-loading">
+                        O
+                    </span>
+                    <span data-text-preloader="U" class="letters-loading">
+                        U
+                    </span>
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back To Top Start -->
+        <div class="scroll-up">
+            <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+
+        <!-- Offcanvas Area Start -->
+        <div class="fix-area">
+            <div class="offcanvas__info">
+                <div class="offcanvas__wrapper">
+                    <div class="offcanvas__content">
+                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div class="offcanvas__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="offcanvas__close">
+                                <button>
+                                <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="text d-none d-xl-block">
+                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                        </p>
+                        <div class="mobile-menu fix mb-3"></div>
+                        <div class="offcanvas__contact">
+                            <h4>Contact Info</h4>
+                            <ul>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon">
+                                        <i class="fal fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fal fa-envelope"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fal fa-clock"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="far fa-phone"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="tel:+11002345909">+11002345909</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="header-button mt-4">
+                                <a href="contact.html" class="theme-btn text-center">
+                                    <span>Get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
+                                </a>
+                            </div>
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas__overlay"></div>
+
+        <!-- Header Section Start -->
+        <header class="header-section">
+            <div id="header-sticky" class="header-3">
+                <div class="container-fluid">
+                    <div class="mega-menu-wrapper">
+                        <div class="header-main">
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="index.html" class="header-logo-1">
+                                        <img src="assets/img/logo/logo.png" alt="logo-img" class="img-fluid">
+                                    </a>
+                                    <a href="index.html" class="header-logo-2">
+                                        <img src="assets/img/logo/logo.png" alt="logo-img" class="img-fluid">
+                                    </a>
+                                </div>
+                               
+                            </div>
+                            <div class="header-right d-flex justify-content-end align-items-center">
+                                <div class="icon-items">
+                                    <div class="icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p>اتصل بنا</p>
+                                        <h6><a href="tel:01226662662">01226662662</a></h6>
+                                    </div>
+                                </div>
+                                <div class="header-button">
+                                    <a href="car-details.html" class="theme-btn">
+                                        تواصل الان
+                                    </a>
+                                </div>
+                                <div class="header__hamburger d-xl-none my-auto">
+                                    <div class="sidebar__toggle">
+                                        <i class="fas fa-bars"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+       
+
+        <!-- Hero Section Start -->
+        <section class="hero-section hero-3 fix">
+            <div class="array-button">
+                <button class="image-array-left bg-cover" style="background-image: url('assets/img/bg-slideshow-03.jpg');">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="image-array-right bg-cover" style="background-image: url('assets/img/bg-slideshow-03.jpg');">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="swiper hero-slider-3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/hero-3.jpg');">
+                            <div class="line-shape" data-animation="slideInLeft" data-duration="3s" data-delay="2.1s">
+                                <img src="assets/img/hero/line-shape-1.png" alt="shape-img">
+                            </div>
+                            <div class="line-shape-2" data-animation="slideInLeft" data-duration="3s" data-delay="2.3s">
+                                <img src="assets/img/hero/line-shape-2.png" alt="shape-img">
+                            </div>
+                        </div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-12">
+                                       <div class="hero-content">
+
+                                            <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
+                                                دائمًا على الموعد
+
+                                            </h1>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/hero-4.jpg');">
+                            <div class="line-shape" data-animation="slideInLeft" data-duration="3s" data-delay="2.1s">
+                                <img src="assets/img/hero/line-shape-1.png" alt="shape-img">
+                            </div>
+                            <div class="line-shape-2" data-animation="slideInLeft" data-duration="3s" data-delay="2.3s">
+                                <img src="assets/img/hero/line-shape-2.png" alt="shape-img">
+                            </div>
+                        </div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-12">
+                                       <div class="hero-content">
+                                            <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
+                                                رفاهية تفوق الخيال
+
+                                            </h1>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/hero-4.jpg');">
+                            <div class="line-shape" data-animation="slideInLeft" data-duration="3s" data-delay="2.1s">
+                                <img src="assets/img/hero/line-shape-1.png" alt="shape-img">
+                            </div>
+                            <div class="line-shape-2" data-animation="slideInLeft" data-duration="3s" data-delay="2.3s">
+                                <img src="assets/img/hero/line-shape-2.png" alt="shape-img">
+                            </div>
+                        </div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-12">
+                                       <div class="hero-content">
+                                            <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
+                                                اختيارك الأول لرحلتك في مصر
+
+                                            </h1>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Car Rentals Section Start -->
+        <section class="car-rentals-section-2 section-padding fix">
+            <div class="container">
+                <div class="section-title text-center wow fadeInUp" data-wow-delay=".4s">
+                    <h2 >
+                        كيف تستمتع بأفضل جولات سياحية آمنة ومريحة داخل مصر؟
+                    </h2>
+                    <h2 >مع المنصور… كل اللي تبيه تلاقيه، لتعيش تجربة كاملة!
+                    </h2>
+                </div>
+                <div class="text-center fs-4">
+                    <span>
+                        إذا تواجهك مشكلة في حجز الفندق الخاص بك في مصر
+                    </span>
+                    <br>
+                    <span>
+                        أو ما تلاقي وسيلة تنقل مريحة وترضيك
+                    </span>
+                    <br>
+                    <span>
+                        أو مواعيد السيارات اللي تطلبها مو دايمًا مضبوطة
+                    </span>
+
+                </div>
+                <div class="text-center mt-5">
+                    <a href="car-details.html" class="theme-btn">
+                        تواصل الان
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- News Section Start -->
+        <section class="news-section section-padding fix bg-cover" style="background-image: url('assets/img/news/bg.jpg');">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">
+                        مع المنصور…اختيارك صائب دائمًا…نوفرلك!
+
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="news-card-items">
+                            <div class="news-image">
+                                <img src="assets/img/news/01.jpg" alt="news-img">
+                               
+                            </div>
+                            <div class="news-content">
+                                <div class="news-cont">
+                                    <p>تأجير أسطول ضخم من السيارات الفارهة بشوفير خاص</p>
+                                    <p>فريق سائقين محترف لخدمتك على مدار الـ 24 ساعة
+                                    </p>
+                                </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="news-card-items">
+                            <div class="news-image">
+                                <img src="assets/img/news/02.jpg" alt="news-img">
+                               
+                            </div>
+                            <div class="news-content">
+                                <div class="news-cont">
+                                    <p>استقبال حافل بوصولك من أول لحظة بالمطار وحتى عودتك
+                                    </p>
+                                    <p>حجوزات الفنادق، المطاعم وأماكن الخروج والسهر
+
+                                    </p>
+                                </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="news-card-items">
+                            <div class="news-image">
+                                <img src="assets/img/news/03.jpg" alt="news-img">
+                               
+                            </div>
+                            <div class="news-content">
+                                <div class="news-cont">
+                                    <p>تسهيل إجراءات المطار
+                                    </p>
+                                    <p>تخطيط شامل لرحلتك
+                                    </p>
+                                </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cta Car Booking Section Start -->
+        <section class="cta-car-booking-section bg-cover section-padding" style="background-image: url('assets/img/cta/cta-service.jpg');">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="cta-car-booking-items">
+                            <div class="content">
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                    فقط اختر سيارتك المفضلة ودع لنا الباقي!
+
+                                </h2>
+                                <div class="button-items">
+                                    <a href="about.html" class="theme-btn bg-white wow fadeInUp" data-wow-delay=".5s">تواصل الان</a>
+                                    <a href="car-details.html" class="theme-btn bg-header wow fadeInUp" data-wow-delay=".7s">اختر سيارتك</a>
+                                </div>
+                            </div>
+                            <div class="car-image">
+                                <img src="assets/img/car-slideshow-2.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Faq Section Start -->
+        <section class=" section-padding">
+                <div class="car-slider-section">
+                    <div class="car-slider-wrapper">
+                        <div class="swiper car-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="car-slider-image">
+                                        <img src="assets/img/car-slider/01.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="car-slider-image">
+                                        <img src="assets/img/car-slider/02.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="car-slider-image">
+                                        <img src="assets/img/car-slider/03.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="car-slider-image">
+                                        <img src="assets/img/car-slider/04.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="car-slider-image">
+                                        <img src="assets/img/car-slider/05.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="car-slider-image">
+                                        <img src="assets/img/car-slider/06.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+      
+
+        <!-- Cta Cheap Rental Section Start -->
+        <section class="cta-cheap-rental-section">
+            <div class="container">
+                <div class="text-center">
+                    <div class="cta-cheap-rental-left wow fadeInUp" data-wow-delay="
+                    .3s">
+                        <div class="logo-thumb">
+                            <a href="index.html">
+                                <img src="assets/img/logo/logo.png" alt="logo-img" class="fluid-img">
+                            </a>
+                        </div>
+                        <h4 class="text-white mt-3">مع المنصور... كل اللي تبيه تلاقيه، لتعيش تجربة كاملة!
+                        </h4>
+                        <p>
+                            <i class="fab fa-whatsapp"></i>
+                            01226662662
+                        </p>
+                    </div>
+                    <a href="car-details.html" class="theme-btn my-3">
+                        تواصل الان
+                    </a>
+                </div>
+            </div>
+        </section>
+
+       <!-- Footer Section Start -->
+        <footer class="footer-section fix">
+            <div class="container">
+
+                <div class="footer-bottom">
+                    <div class="footer-wrapper">
+                        <p class="wow fadeInUp" data-wow-delay=".4s">
+                            © Copyright 2024 by RASANS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Datepicker Js >>-->
+        <script src="assets/js/bootstrap-datepicker.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< GSAP Animation Js >>-->
+        <script src="assets/js/animation.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
