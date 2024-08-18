@@ -11,9 +11,9 @@ Version: 1.0.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #ff3726;
-  --theme2: #005cb5;
-  --header: #0c142e;
+  --theme: #b29150;
+  --theme2: #1a2f2c;
+  --header: #1a2f2c;
   --text: #77797e;
   --ratting: #ffa128;
   --border: #E3E3E3;
@@ -45,14 +45,14 @@ Version: 1.0.0
   content: "";
   background-color: var(--header);
   width: 0;
-  height: 50%;
+  height: 51%;
   position: absolute;
   top: 0;
   left: 0;
   -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   z-index: -1;
-  border-radius: 10px 10px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 .theme-btn::after {
   content: "";
@@ -65,7 +65,7 @@ Version: 1.0.0
   -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   z-index: -1;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 7px 7px;
 }
 .theme-btn i {
   margin-left: 10px;
@@ -123,7 +123,7 @@ body {
   font-weight: normal;
   line-height: 28px;
   color: var(--text);
-  background-color: var(--white);
+  background-color: #161619;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -1169,7 +1169,7 @@ span {
 }
 
 .cta-cheap-rental-section {
-  background-color: rgb(17, 26, 54);
+  background-color: #161619;
   padding: 30px 0;
 }
 
@@ -2416,7 +2416,7 @@ span {
 }
 
 .footer-section {
-  background-color: #0C142E;
+  background-color: #161619;
   position: relative;
   z-index: 9;
 }
@@ -2651,7 +2651,7 @@ span {
 }
 
 .footer-bottom {
-  border-top: 1px solid #2d344a;
+  border-top: 1px solid #b29150;
   padding: 30px 0;
 }
 .footer-bottom .footer-wrapper {
@@ -3215,17 +3215,13 @@ span {
     padding: 0;
   }
 }
-@media (max-width: 1600px) {
-  .header-3 .header-main .header-right .header-button {
-    display: none;
-  }
-}
+
 .header-3 .header-main .header-right .icon-items {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-@media (max-width: 1399px) {
+@media (max-width: 500px) {
   .header-3 .header-main .header-right .icon-items {
     display: none;
   }
@@ -3265,7 +3261,7 @@ span {
   width: 100%;
   z-index: 9999;
   transition: all 0.9s;
-  background-color: var(--white);
+  background-color:#161619;
   box-shadow: var(--box-shadow);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -4648,7 +4644,7 @@ span {
   object-fit: cover;
 }
 .news-card-items .news-content {
-  background-color: var(--white);
+  background-color: #161619;
   box-shadow: var(--box-shadow);
   border-radius: 10px;
   margin: 0 20px;
@@ -5030,7 +5026,7 @@ span {
   }
 }
 .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Lexend", sans-serif, "Lexend", sans-serif;
+  font: bold 5em "Noto Naskh Arabic";
   text-align: center;
   user-select: none;
 }
