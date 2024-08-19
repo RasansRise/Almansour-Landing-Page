@@ -3908,11 +3908,11 @@ span {
 .hero-1:hover .array-button .image-array-right {
   right: 20px;
 }
-.hero-1 .swiper-slide-active .hero-image {
+/* .hero-1 .swiper-slide-active .hero-image {
   -webkit-transform: scale(1.12);
   -moz-transform: scale(1.12);
   transform: scale(1.12);
-}
+} */
 .hero-1 .hero-image {
   overflow: hidden;
   position: absolute !important;
