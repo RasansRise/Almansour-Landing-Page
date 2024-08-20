@@ -3573,6 +3573,18 @@ span {
   -webkit-animation: rippleOne 3s infinite;
   animation: rippleOne 3s infinite;
 }
+@media(max-width:750px){
+  .ripple::before, .ripple::after {
+    -webkit-transform: translateX(-15%) translateY(-50%);
+    transform: translateX(-15%) translateY(-50%);
+  }
+}
+@media(max-width:575px){
+  .ripple::before, .ripple::after {
+    -webkit-transform: translateX(0) translateY(-50%);
+    transform: translateX(0) translateY(-50%);
+  }
+}
 .ripple::before {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
